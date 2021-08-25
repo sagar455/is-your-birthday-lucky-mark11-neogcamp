@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+:root {
+    --primary-dark:  white;
+    --primary-light: #A4BAB7;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    color: var(--primary-light);
+   
+}
+
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+    color:#03151A
+}
+
+#birth-date {
+    margin: 0.5rem 0 1rem 0;
+    padding: 0.5rem;
+}
+
+#lucky-number {
+    margin: 0.5rem 0 1rem 0;
+    padding: 0.5rem;
+}
+
+#check-button {
+    font-size: large;
+    margin-bottom: 3rem;
+    display: block;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: auto;
+    background: transparent;
+    color: white;
+    border-width: medium;
+    background-color: #02C39A;
+
+}
+
+.bDay-image {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer {
+    position: relative;
+
+    padding: 2rem 0rem;
+    text-align: center;
+    color: var(--primary-light);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .link1 {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
